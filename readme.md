@@ -1,6 +1,6 @@
 # Sample Custom WordPress Theme
 
-Live Demo @ https://prideandpixels.com
+
 
 ## Description
 
