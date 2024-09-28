@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General body styles */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border-radius: 16px; 
+}
+
+/* Footer styles */
+footer {
+    background-color: #0073aa; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #005fa3; 
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px; 
+}
+
+footer p {
+    margin: 5px 0; 
+}
+
+footer strong {
+    font-weight: bold; 
+}
+
+/* Header styles */
+header {
+    background-color: #ffffff; 
+    color: #333; 
+    padding: 20px 0; 
+    text-align: center;
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px; 
+    font-weight: bold; 
+    line-height: 1.2; 
+}
+
+header p {
+    padding: 10px;
+    font-size: 45px; 
+    opacity: 0.9; 
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style-type: none; 
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    text-align: center; 
+    background-color: #0073aa; 
+}
+
+nav li {
+    display: inline-block; 
+}
+
+nav a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none; 
+    transition: background-color 0.3s; 
+}
+
+nav a:hover {
+    background-color: #005fa3; 
+}
+
+/* Responsive styles for navigation */
+@media (max-width: 600px) {
+    nav li {
+        display: block; /* Stack navigation items vertically on small screens */
+    }
+
+    nav a {
+        padding: 10px; 
+    }
+}
